@@ -1,5 +1,5 @@
 def hello_world():
     return 'Hello World!'
 
-def hello_world_n(n):
+def hello_world(n):
     return ' '.join(['Hello World!'] * n)
