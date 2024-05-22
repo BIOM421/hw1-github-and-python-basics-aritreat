@@ -1,9 +1,7 @@
-def hello_world():
-	return "Hello World!"
-result = hello_world()
-print(result)
+import hello
 
-def hello_world_n(N):
-	N = int(N)
-	result_1 =  "Hello World!" * N
-	return result_1	
+def test_hello():
+    assert hello.hello_world() == "Hello World!"
+    
+def test_Nhello():
+    assert hello.hello_world_n(3) == "Hello World! Hello World! Hello World!"
