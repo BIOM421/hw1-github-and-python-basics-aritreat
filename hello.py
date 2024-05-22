@@ -5,5 +5,5 @@ print(result)
 
 def hello_world_n(N):
 	N = int(N)
-	result_1 =  "Hello World! " * N
+	result_1 =  ("Hello World! " * N).strip()
 	return result_1	
